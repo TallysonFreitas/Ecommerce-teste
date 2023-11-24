@@ -9,16 +9,29 @@ export const SHeader = styled.header`
 
   h1 {
     color: white;
+    font-size: 40px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   ul {
     display: flex;
-    column-gap: 40px;
+    column-gap: 36px;
     li {
+      transition: all ease 0.1s;
+      &:hover {
+        transform: translateY(4px);
+      }
       a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
+        padding: 4px;
+        font-size: 22px;
+        &:hover {
+          color: #ccc;
+        }
       }
     }
   }

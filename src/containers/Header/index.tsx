@@ -3,7 +3,9 @@ import { SHeader } from './style'
 const Header = () => {
   return (
     <SHeader>
-      <h1>Meu Site</h1>
+      <h1>
+        <a href="#">Meu Site</a>
+      </h1>
       <ul>
         <li>
           <a href="#">Visao geral</a>

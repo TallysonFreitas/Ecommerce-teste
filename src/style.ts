@@ -6,6 +6,7 @@ export const EstiloGlobal = createGlobalStyle`
   padding:0px;
   box-sizing:border-box;
   list-style:none;
+  font-family:'Poppins', sans-serif;
 }
 
 body{
