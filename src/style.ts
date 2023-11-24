@@ -7,12 +7,15 @@ export const EstiloGlobal = createGlobalStyle`
   box-sizing:border-box;
   list-style:none;
 }
+
+body{
+  background-color:#111144;
+}
 `
 
 export const ContainerPrincipal = styled.div`
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1920px;
   width: 100%;
-  background-color: #f44;
   height: 100vh;
 `
